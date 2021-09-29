@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "dash-client-side-solution",
+    "id": "0ddad595-368e-4345-a5fe-9dee41cd4d9e",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/dash.sppkg"
+  }
+}

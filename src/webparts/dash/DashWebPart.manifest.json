@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "1a9abbc1-eafc-4983-81a5-59b6cb851d5b",
+  "alias": "DashWebPart",
+  "componentType": "WebPart",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+
+  /**
+   * This property should only be set to true if it is certain that the webpart does not
+   *  allow arbitrary scripts to be called
+   */
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "1a9abbc1-eafc-4983-81a5-59b6cb851d5b",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Dash" },
+    "description": { "default": "Dash description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "listId": "",
+      "selectedFields": "",
+      "chartType": "Bar",
+      "chartTitle": "",
+      "color1": "#0078d4",
+      "color2": "#bad80a",
+      "color3": "#00b294"
+    }
+  }]
+}
